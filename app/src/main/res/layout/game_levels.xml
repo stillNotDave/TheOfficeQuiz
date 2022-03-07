@@ -37,7 +37,7 @@
                     android:id="@+id/buttonBack"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_stroke_pressed"
+                    android:background="@drawable/button_stroke_white_blue_pressed"
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
                     android:text="@string/back"
@@ -58,7 +58,7 @@
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:id="@+id/line1"
+                        android:id="@+id/line1Levels"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="horizontal">
@@ -125,7 +125,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/line2"
+                        android:id="@+id/line2Levels"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
@@ -193,7 +193,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/line3"
+                        android:id="@+id/line3Levels"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
@@ -261,7 +261,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/line4"
+                        android:id="@+id/line4Levels"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
@@ -329,7 +329,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/line5"
+                        android:id="@+id/line5Levels"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
@@ -397,7 +397,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/line6"
+                        android:id="@+id/line6Levels"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"

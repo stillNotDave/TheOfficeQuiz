@@ -6,10 +6,11 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class GameLevels extends AppCompatActivity implements BackPressed{
+public class GameLevels extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,19 @@ public class GameLevels extends AppCompatActivity implements BackPressed{
                     openActivity(MainActivity.class);
                 }catch (Exception e){
 
+                }
+            }
+        });
+
+        //кнопка для перехода на 1 лвл
+        TextView textView1 = findViewById(R.id.textView1);
+        textView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try{
+                    openActivity(Level1.class);
+                }catch (Exception e){
+                    //пусто
                 }
             }
         });

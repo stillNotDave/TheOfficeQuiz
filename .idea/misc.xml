@@ -6,11 +6,18 @@
         <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/drawable-v24/style_button_light_gray_pressed.xml" value="0.2703125" />
         <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/drawable/button_game_levels.xml" value="0.2703125" />
         <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/drawable/button_stroke_pressed.xml" value="0.2703125" />
+        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/drawable/button_stroke_white_blue_pressed.xml" value="0.2703125" />
+        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/drawable/style_blue_pressed.xml" value="0.2703125" />
         <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/drawable/style_button_black.xml" value="0.2703125" />
         <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/drawable/style_button_stroke_black.xml" value="0.2703125" />
         <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/drawable/style_button_stroke_black_pressed.xml" value="0.2703125" />
+        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/drawable/style_button_white.xml" value="0.2703125" />
+        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/drawable/style_button_white_blue_pressed.xml" value="0.2703125" />
+        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/drawable/style_image_universal.xml" value="0.2703125" />
+        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/drawable/style_points_for_levels.xml" value="0.2703125" />
         <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout/game_levels.xml" value="0.4" />
+        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout/universal_activity_for_levels.xml" value="0.264" />
       </map>
     </option>
   </component>

@@ -2,4 +2,11 @@
     <string name="app_name">TheOfficeQuiz</string>
     <string name="start">Начать</string>
     <string name="back">Назад</string>
+    <string name="level">Уровень:</string>
+
+    <string name="answer1">Ответ 1</string>
+    <string name="answer2">Ответ 2</string>
+    <string name="answer3">Ответ 3</string>
+    <string name="answer4">Ответ 4</string>
+    <string name="question">Сам вопрос</string>
 </resources>

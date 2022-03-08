@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class GameLevels extends AppCompatActivity{
+public class GameLevels extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

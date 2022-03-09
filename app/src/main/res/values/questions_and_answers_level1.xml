@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="question1"> Какие два актера из сериала вместе учились в средней школе и играли в одной баскетбольной команде?</string>
+    <string name="question2">Кем из актеров были сняты фрагменты из вступительных титров, например, внешний вид здания Дандер Миффлин?</string>
+    <string name="question3">Укажите название музыкального коллектива, в котором играет актер, сыгравший самого загадочного персонажа сериала.</string>
+    <string name="question4">Назовите имя актера, сыгравшего регионального менеджера в оригинальном Офисе, с которым сталкивается Майкл Скотт в 14 серии 7 сезона.</string>
+    <string name="question5">Кто из актеров изначально прослушивался на роль Майкла Скотта, но в итоге получил не менее значимую роль?</string>
+    <string name="question6"> Кому из актеров пришлось носить парик в одном из сезонов, т.к. ему пришлось побриться ради другой роли?</string>
+    <string name="question7">Назовите актеров, имена которых совпадают с их персонажами.</string>
+    <string name="question8"> Назовите имя актера, брата которого сыграл его реальный брат.</string>
+    <string name="question9">Кто из актеров вселенной \"Во все тяжкие\" прослушивался на роль Майкла Скотта и позже появился в сериале?</string>
+    <string name="question10">Назовите имя актера, персонаж которого не появляется на собеседовании на должность регионального менеджера.</string>
+
+    <string name="answer1Lvl1Correct">Джон Красински и Б.Дж.Новак</string>
+    <string name="answer1Lvl1Wrong1">Дженна Фишер и Анджела Кинси</string>
+    <string name="answer1Lvl1Wrong2">Минди Калинг и Б.Дж.Новак</string>
+    <string name="answer1Lvl1Wrong3">Рейн Уилсон и Стив Карелл</string>
+
+    <string name="answer2Lvl1Correct">Джон Красински</string>
+    <string name="answer2Lvl1Wrong1">Рейн Уилсон</string>
+    <string name="answer2Lvl1Wrong2">Оскар Нуньес</string>
+    <string name="answer2Lvl1Wrong3">Дженна Фишер</string>
+
+    <string name="answer3Lvl1Correct">The Grass Roots</string>
+    <string name="answer3Lvl1Wrong1">The Scranton Boys</string>
+    <string name="answer3Lvl1Wrong2">Electric City</string>
+    <string name="answer3Lvl1Wrong3">Darryl\'s Guys</string>
+
+    <string name="answer4Lvl1Correct">Рики Джервейс</string>
+    <string name="answer4Lvl1Wrong1">Энди Бакли</string>
+    <string name="answer4Lvl1Wrong2">Пол Либерштейн</string>
+    <string name="answer4Lvl1Wrong3">Брайан Крэнстон</string>
+
+    <string name="answer5Lvl1Correct">Рейн Уилсон</string>
+    <string name="answer5Lvl1Wrong1">Боб Оденкирк</string>
+    <string name="answer5Lvl1Wrong2">Брайан Баумгартнер</string>
+    <string name="answer5Lvl1Wrong3">Лесли Дэвид Бэйкер</string>
+
+    <string name="answer6Lvl1Correct">Джон Красински</string>
+    <string name="answer6Lvl1Wrong1">Рейн Уилсон</string>
+    <string name="answer6Lvl1Wrong2">Б.Дж.Новак</string>
+    <string name="answer6Lvl1Wrong3">Эд Хелмс</string>
+
+    <string name="answer7Lvl1Correct">Филлис, Оскар, Анджела, Крид</string>
+    <string name="answer7Lvl1Wrong1">Пэм, Оскар, Майкл, Филлис</string>
+    <string name="answer7Lvl1Wrong2">Джон, Анджела, Энди, Эрин</string>
+    <string name="answer7Lvl1Wrong3">Рейн, Дуайт, Курт, Мередит</string>
+
+    <string name="answer8Lvl1Correct">Пол Либерштейн</string>
+    <string name="answer8Lvl1Wrong1">Рейн Уилсон</string>
+    <string name="answer8Lvl1Wrong2">Эд Хелмс</string>
+    <string name="answer8Lvl1Wrong3">Майкл Скотт</string>
+
+    <string name="answer9Lvl1Correct">Боб Оденкирк</string>
+    <string name="answer9Lvl1Wrong1"> Брайан Крэнстон</string>
+    <string name="answer9Lvl1Wrong2">Джанкарло Эспозито</string>
+    <string name="answer9Lvl1Wrong3">Джонатан Бэнкс</string>
+
+    <string name="answer10Lvl1Correct">Джим Керри</string>
+    <string name="answer10Lvl1Wrong1">Роб Шнайдер</string>
+    <string name="answer10Lvl1Wrong2">Бен Стиллер</string>
+    <string name="answer10Lvl1Wrong3">Саша Барон Коэн</string>
+</resources>

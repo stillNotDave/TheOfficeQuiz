@@ -181,45 +181,33 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:paddingBottom="30dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="8dp">
+
             <LinearLayout
                 android:id="@+id/line4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="5dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/answer1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:layout_weight="1"
                     android:background="@drawable/button_stroke_white_blue_pressed"
                     android:gravity="center"
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
                     android:text="@string/answer1"
-                    android:textSize="34sp">
+                    android:textSize="32sp">
 
                 </TextView>
 
-                <TextView
-                    android:id="@+id/answer2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/button_stroke_white_blue_pressed"
-                    android:gravity="center"
-                    android:paddingLeft="5dp"
-                    android:paddingRight="5dp"
-                    android:text="@string/answer2"
-                    android:textSize="34sp">
-
-                </TextView>
 
             </LinearLayout>
 
@@ -227,42 +215,78 @@
                 android:id="@+id/line5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/answer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_stroke_white_blue_pressed"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/answer2"
+                    android:textSize="32sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/answer3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:layout_weight="1"
                     android:background="@drawable/button_stroke_white_blue_pressed"
                     android:gravity="center"
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
                     android:text="@string/answer3"
-                    android:textSize="34sp">
+                    android:textSize="32sp">
 
                 </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/answer4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:layout_weight="1"
                     android:background="@drawable/button_stroke_white_blue_pressed"
                     android:gravity="center"
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
                     android:text="@string/answer4"
-                    android:textSize="34sp">
+                    android:textSize="32sp">
 
                 </TextView>
-
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
-
 </RelativeLayout>

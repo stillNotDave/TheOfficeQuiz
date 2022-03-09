@@ -16,12 +16,19 @@
         <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/drawable/style_image_universal.xml" value="0.2703125" />
         <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/drawable/style_points_for_levels.xml" value="0.2703125" />
         <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout-large/universal_activity_for_levels.xml" value="0.2" />
-        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout-normal/universal_activity_for_levels.xml" value="0.264" />
+        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout-large/universal_level_activity.xml" value="0.4" />
+        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout-normal/universal_activity_for_levels.xml" value="1.0" />
+        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout-normal/universal_level_activity.xml" value="0.2504528985507246" />
         <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout-small/universal_activity_for_levels.xml" value="1.0" />
-        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout-xlarge/universal_activity_for_levels.xml" value="0.2" />
+        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout-small/universal_level_activity.xml" value="1.6" />
+        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout-xlarge/universal_activity_for_levels.xml" value="0.4" />
+        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout-xlarge/universal_level_activity.xml" value="0.536" />
         <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout/game_levels.xml" value="0.264" />
+        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout/preview_dialog.xml" value="0.22589869281045752" />
+        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout/preview_dialog_window.xml" value="0.6" />
         <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout/universal_activity_for_levels.xml" value="0.264" />
+        <entry key="..\:/gamm/AndroidStudioProjects/TheOfficeQuiz/app/src/main/res/layout/universal_level_activity.xml" value="0.2504528985507246" />
       </map>
     </option>
   </component>

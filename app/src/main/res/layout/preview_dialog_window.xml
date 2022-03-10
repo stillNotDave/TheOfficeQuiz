@@ -33,8 +33,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginTop="6dp"
-            android:layout_weight="60"
-            android:src="@drawable/check">
+            android:layout_weight="50"
+            android:src="@drawable/preview_picture">
 
         </ImageView>
 
@@ -43,7 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:text="@string/lvl1_question"
-            android:layout_weight="30"
+            android:layout_weight="40"
             android:textSize="28sp"
             android:padding="15dp"
             android:gravity="center"
@@ -57,7 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:background="@drawable/button_stroke_white_blue_pressed"
-            android:layout_weight="10"
+            android:layout_weight="8"
             android:text="@string/text_continue"
             android:textAllCaps="true"
             android:textSize="24sp"

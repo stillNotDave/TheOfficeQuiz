@@ -85,4 +85,6 @@ public class QuestionsArray {
             R.string.answer10Lvl1Wrong2,
             R.string.answer10Lvl1Wrong3
     };
+
+    final int[] answers = {1,2,3,4,5,6,7,8,9,10};
 }

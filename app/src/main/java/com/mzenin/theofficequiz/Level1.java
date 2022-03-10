@@ -21,7 +21,16 @@ public class Level1 extends AppCompatActivity {
 
     Dialog dialog;
     public int question;
-    public int answer;
+    int answer[]={-1,-1,-1,-1}; //для храненя номеров ответов
+    static int position;
+    int answerContainerOnClick=0; //для хранения номера нажатой кнопки
+    final int[] answerOneLvlOne = {
+            R.string.answer1Lvl1Correct,
+            R.string.answer1Lvl1Wrong1,
+            R.string.answer1Lvl1Wrong2,
+            R.string.answer1Lvl1Wrong3
+    };
+
     QuestionsArray array = new QuestionsArray(); //создаем новый объект класса QuestionsArray
     Random random = new Random();
 
@@ -29,7 +38,7 @@ public class Level1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.universal_activity_for_levels);
+        setContentView(R.layout.universal_level_activity);
 
         //устанавливаем нужную цифру в уровень:
         TextView textLevels = findViewById(R.id.textLevels);
@@ -85,10 +94,10 @@ public class Level1 extends AppCompatActivity {
             }
         });
 
-        //случайный вопрос
+        // ранломим число, подставляем его как элемент массива
         final TextView textQuestion = findViewById(R.id.line3);
         question = random.nextInt(10);
-        textQuestion.setText(array.questions1Lvl[question]); //достаем из массива строку с номером равным случайному числу
+        textQuestion.setText(array.questions1Lvl[question]);
         //в следующих уровнях нужно будет предусмотреть, чтобы вопросы не повторялись
 
         //варианты ответов
@@ -97,9 +106,30 @@ public class Level1 extends AppCompatActivity {
         final TextView textAnswer3 = findViewById(R.id.answer3);
         final TextView textAnswer4 = findViewById(R.id.answer4);
 
+        //?????????????????????????????????????????????????????
+
+
 
     }
-
+/////////////////////////////////////////////////////////////////////////////
+//    public void makeAnswer(){
+//        int random_move = random.nextInt(4);
+//        answer[0]=-1;
+//        answer[1]=-1;
+//        answer[2]=-1;
+//        answer[3]=-1;
+//        answer[random_move]=position; //в рандомное место в массиве помещаю номер правильного ответа
+//    }
+//
+//    public String checkAnswer(){
+//        if(answer[answerContainerOnClick]!=-1){
+//            return rightAnswer();
+//        }
+//        else{
+//            return wrongAnswer();
+//        }
+//    }
+/////////////////////////////////////////////////////////////////////////////
     //системная кнопка назад
     @Override
     public void onBackPressed(){

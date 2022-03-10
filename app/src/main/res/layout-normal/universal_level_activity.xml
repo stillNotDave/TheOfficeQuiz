@@ -204,7 +204,7 @@
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
                     android:text="@string/answer1"
-                    android:textSize="32sp">
+                    android:textSize="26sp">
 
                 </TextView>
 
@@ -231,7 +231,7 @@
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
                     android:text="@string/answer2"
-                    android:textSize="32sp">
+                    android:textSize="26sp">
 
                 </TextView>
 
@@ -257,7 +257,7 @@
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
                     android:text="@string/answer3"
-                    android:textSize="32sp">
+                    android:textSize="26sp">
 
                 </TextView>
 
@@ -283,7 +283,7 @@
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
                     android:text="@string/answer4"
-                    android:textSize="32sp">
+                    android:textSize="26sp">
 
                 </TextView>
             </LinearLayout>

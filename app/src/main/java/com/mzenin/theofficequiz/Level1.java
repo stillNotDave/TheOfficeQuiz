@@ -15,6 +15,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 
 public class Level1 extends AppCompatActivity {
@@ -96,10 +99,11 @@ public class Level1 extends AppCompatActivity {
 
         // ранломим число, подставляем его как элемент массива
         final TextView textQuestion = findViewById(R.id.line3);
-        question = random.nextInt(10);
-        textQuestion.setText(array.questions1Lvl[question]);
+//        question = random.nextInt(10);
+//        textQuestion.setText(array.questions1Lvl[question]);
         //в следующих уровнях нужно будет предусмотреть, чтобы вопросы не повторялись
-
+        int index = QuestionsArray.order.get(0);
+        textQuestion.setText(array.questions1Lvl[index]);
         //варианты ответов
         final TextView textAnswer1 = findViewById(R.id.answer1);
         final TextView textAnswer2 = findViewById(R.id.answer2);
@@ -107,6 +111,12 @@ public class Level1 extends AppCompatActivity {
         final TextView textAnswer4 = findViewById(R.id.answer4);
 
         //?????????????????????????????????????????????????????
+        List<Integer> list = Arrays.asList(0, 1, 2, 3);
+        Collections.shuffle(list);
+        textAnswer1.setText(array.answersLvl1[index][list.get(0)]);
+        textAnswer2.setText(array.answersLvl1[index][list.get(1)]);
+        textAnswer3.setText(array.answersLvl1[index][list.get(2)]);
+        textAnswer4.setText(array.answersLvl1[index][list.get(3)]);
 
 
 

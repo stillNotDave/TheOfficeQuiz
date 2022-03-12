@@ -1,6 +1,16 @@
 package com.mzenin.theofficequiz;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Stream;
+
 public class QuestionsArray {
+    public static List<Integer> order = Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
+
+    static {
+        Collections.shuffle(order);
+    }
 
     //Массив для 1 уровня
     final int[] questions1Lvl = {
@@ -84,6 +94,19 @@ public class QuestionsArray {
             R.string.answer10Lvl1Wrong1,
             R.string.answer10Lvl1Wrong2,
             R.string.answer10Lvl1Wrong3
+    };
+
+    final int[][] answersLvl1 = {
+            answer1Lvl1,
+            answer2Lvl1,
+            answer3Lvl1,
+            answer4Lvl1,
+            answer5Lvl1,
+            answer6Lvl1,
+            answer7Lvl1,
+            answer8Lvl1,
+            answer9Lvl1,
+            answer10Lvl1
     };
 
     final int[] answers = {1,2,3,4,5,6,7,8,9,10};
